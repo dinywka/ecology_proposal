@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q%8sr3=v^@mk1j$=f_1bpi9fa=5a_sqexv)v6(8w!9dn7b)v=d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dinywka.pythonanywhere.com']
 
 
 # Application definition
@@ -121,3 +121,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_ROOT = '/home/dinywka/ecology_proposal/media'
+MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/dinywka/ecology_proposal/static'
